@@ -83,7 +83,7 @@ Or this:
 
 ```html
 <form #f="ngForm" [formGroup]="phoneForm">
-  <ngx-intl-tel-input
+  <vx-itel
     [cssClass]="'custom'"
     [preferredCountries]="[CountryISO.UnitedStates, CountryISO.UnitedKingdom]"
     [enableAutoCountrySelect]="false"
@@ -97,7 +97,7 @@ Or this:
     [inputId]="my-input-id"
     name="phone"
     formControlName="phone"
-  ></ngx-intl-tel-input>
+  ></vx-itel>
 </form>
 ```
 
