@@ -1,4 +1,4 @@
-import { NgxIntlTelInputModule } from 'projects/vx-itel/src/lib/vx-itel.module';
+import { VxITelModule } from 'projects/vx-itel/src/lib/vx-itel.module';
 
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxIntlTelInputModule,
+    VxITelModule,
     BrowserAnimationsModule,
   ],
   providers: [],
