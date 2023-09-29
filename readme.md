@@ -22,7 +22,11 @@ Validation with [google-libphonenumber](https://github.com/ruimarinho/google-lib
 
 ### Install vx-itel
 
-`$ npm i https://github.com/serhatkaya/vx-itel.git#v1.3 --save`
+#### For Angular Version 8 - 15
+`$ npm i https://github.com/serhatkaya/vx-itel.git#v1.0 --save`
+#### For Angular Version 16
+`$ npm i https://github.com/serhatkaya/vx-itel.git#v1.1 --save`
+
 
 <!-- ### Install Dependencies
 
