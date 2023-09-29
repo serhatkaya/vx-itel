@@ -2,12 +2,12 @@
   "name": "vx-itel",
   "version": "1.0.6",
   "peerDependencies": {
-    "@angular/common": "8.x - 16.x",
-    "@angular/core": "8.x - 16.x",
-    "@angular/forms": "8.x - 16.x",
+    "@angular/common": "16.x",
+    "@angular/core": "16.x",
+    "@angular/forms": "16.x",
     "google-libphonenumber": "^3.2.3",
     "intl-tel-input": "^17.0.3",
-    "ngx-bootstrap": "6.x - 10.x"
+    "ngx-bootstrap": "11.x"
   },
   "repository": {
     "type": "git",
@@ -38,27 +38,24 @@
   "bugs": {
     "url": "https://github.com/guillermodelagala/vx-itel/issues"
   },
-  "module": "fesm2015/vx-itel.mjs",
-  "es2020": "fesm2020/vx-itel.mjs",
-  "esm2020": "esm2020/vx-itel.mjs",
-  "fesm2020": "fesm2020/vx-itel.mjs",
-  "fesm2015": "fesm2015/vx-itel.mjs",
-  "typings": "vx-itel.d.ts",
+  "module": "fesm2022/vx-itel.mjs",
+  "typings": "index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./vx-itel.d.ts",
-      "esm2020": "./esm2020/vx-itel.mjs",
-      "es2020": "./fesm2020/vx-itel.mjs",
-      "es2015": "./fesm2015/vx-itel.mjs",
-      "node": "./fesm2015/vx-itel.mjs",
-      "default": "./fesm2020/vx-itel.mjs"
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/vx-itel.mjs",
+      "esm": "./esm2022/vx-itel.mjs",
+      "default": "./fesm2022/vx-itel.mjs"
     }
   },
   "sideEffects": false,
   "dependencies": {
     "tslib": "^2.3.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
   }
 }
