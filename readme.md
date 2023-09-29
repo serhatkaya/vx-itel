@@ -22,7 +22,7 @@ Validation with [google-libphonenumber](https://github.com/ruimarinho/google-lib
 
 ### Install vx-itel
 
-`$ npm i https://github.com/serhatkaya/vx-itel.git#v1.2 --save`
+`$ npm i https://github.com/serhatkaya/vx-itel.git#v1.3 --save`
 
 <!-- ### Install Dependencies
 
