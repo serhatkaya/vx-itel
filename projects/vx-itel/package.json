@@ -2,12 +2,12 @@
   "name": "vx-itel",
   "version": "1.0.6",
   "peerDependencies": {
-    "@angular/common": "8.x - 16.x",
-    "@angular/core": "8.x - 16.x",
-    "@angular/forms": "8.x - 16.x",
+    "@angular/common": "16.x",
+    "@angular/core": "16.x",
+    "@angular/forms": "16.x",
     "google-libphonenumber": "^3.2.3",
     "intl-tel-input": "^17.0.3",
-    "ngx-bootstrap": "6.x - 10.x"
+    "ngx-bootstrap": "11.x"
   },
   "repository": {
     "type": "git",
