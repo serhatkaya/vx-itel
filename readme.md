@@ -71,33 +71,15 @@ Refer to main app in this repository for working example.
 
 Or this:
 
-[Stackblitz Demo (Angular 8)](https://stackblitz.com/edit/ngx-intl-tel-input-demo-ng-8)
+[Stackblitz Demo (Angular 9)](https://ngx-intl-tel-input-demo-ng-8-sl5pmq.stackblitz.io)
 
-[Stackblitz Demo (Angular 9)](https://stackblitz.com/edit/ngx-intl-tel-input-demo-ng-9)
+[Stackblitz Demo (Angular 10)](https://vx-itel-demo-ng-10.stackblitz.io)
 
-[Stackblitz Demo (Angular 10)](https://stackblitz.com/edit/ngx-intl-tel-input-demo-ng-10)
-
-[Stackblitz Demo (Angular 11)](https://stackblitz.com/edit/ngx-intl-tel-input-demo-ng-11)
-
-[Stackblitz Demo (Angular 12)](https://stackblitz.com/edit/ngx-intl-tel-input-demo-ng-12)
+[Stackblitz Demo (Angular 11)](https://vx-itel-demo-ng-11.stackblitz.io)
 
 ```html
 <form #f="ngForm" [formGroup]="phoneForm">
-  <vx-itel
-    [cssClass]="'custom'"
-    [preferredCountries]="[CountryISO.UnitedStates, CountryISO.UnitedKingdom]"
-    [enableAutoCountrySelect]="false"
-    [enablePlaceholder]="true"
-    [searchCountryFlag]="true"
-    [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]"
-    [selectFirstCountry]="false"
-    [selectedCountryISO]="CountryISO.India"
-    [maxLength]="15"
-    [phoneValidation]="true"
-    [inputId]="my-input-id"
-    name="phone"
-    formControlName="phone"
-  ></vx-itel>
+  <vx-itel [cssClass]="'custom'" [preferredCountries]="[CountryISO.UnitedStates, CountryISO.UnitedKingdom]" [enableAutoCountrySelect]="false" [enablePlaceholder]="true" [searchCountryFlag]="true" [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]" [selectFirstCountry]="false" [selectedCountryISO]="CountryISO.India" [maxLength]="15" [phoneValidation]="true" [inputId]="my-input-id" name="phone" formControlName="phone"></vx-itel>
 </form>
 ```
 
