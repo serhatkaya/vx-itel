@@ -16,18 +16,13 @@ Validation with [google-libphonenumber](https://github.com/ruimarinho/google-lib
 
 | vx-itel | Angular        | ngx-bootstrap |
 | ------- | -------------- | ------------- |
-| 1.0  | 9.x.x - 15.x.x | 6.0.0         |
-| 1.1 | Angular 16 | |
+| 1.x.x   | 9.x.x - 15.x.x | 6.0.0         |
 
 ## Installation
 
 ### Install vx-itel
 
-#### For Angular Version 8 - 15
-`$ npm i https://github.com/serhatkaya/vx-itel.git#v1.0 --save`
-#### For Angular Version 16
-`$ npm i https://github.com/serhatkaya/vx-itel.git#v1.1 --save`
-
+`$ npm i https://github.com/serhatkaya/vx-itel.git#v1.3 --save`
 
 <!-- ### Install Dependencies
 
@@ -76,33 +71,15 @@ Refer to main app in this repository for working example.
 
 Or this:
 
-[Stackblitz Demo (Angular 8)](https://stackblitz.com/edit/ngx-intl-tel-input-demo-ng-8)
+[Stackblitz Demo (Angular 9)](https://ngx-intl-tel-input-demo-ng-8-sl5pmq.stackblitz.io)
 
-[Stackblitz Demo (Angular 9)](https://stackblitz.com/edit/ngx-intl-tel-input-demo-ng-9)
+[Stackblitz Demo (Angular 10)](https://vx-itel-demo-ng-10.stackblitz.io)
 
-[Stackblitz Demo (Angular 10)](https://stackblitz.com/edit/ngx-intl-tel-input-demo-ng-10)
-
-[Stackblitz Demo (Angular 11)](https://stackblitz.com/edit/ngx-intl-tel-input-demo-ng-11)
-
-[Stackblitz Demo (Angular 12)](https://stackblitz.com/edit/ngx-intl-tel-input-demo-ng-12)
+[Stackblitz Demo (Angular 11)](https://vx-itel-demo-ng-11.stackblitz.io)
 
 ```html
 <form #f="ngForm" [formGroup]="phoneForm">
-  <vx-itel
-    [cssClass]="'custom'"
-    [preferredCountries]="[CountryISO.UnitedStates, CountryISO.UnitedKingdom]"
-    [enableAutoCountrySelect]="false"
-    [enablePlaceholder]="true"
-    [searchCountryFlag]="true"
-    [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]"
-    [selectFirstCountry]="false"
-    [selectedCountryISO]="CountryISO.India"
-    [maxLength]="15"
-    [phoneValidation]="true"
-    [inputId]="my-input-id"
-    name="phone"
-    formControlName="phone"
-  ></vx-itel>
+  <vx-itel [cssClass]="'custom'" [preferredCountries]="[CountryISO.UnitedStates, CountryISO.UnitedKingdom]" [enableAutoCountrySelect]="false" [enablePlaceholder]="true" [searchCountryFlag]="true" [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]" [selectFirstCountry]="false" [selectedCountryISO]="CountryISO.India" [maxLength]="15" [phoneValidation]="true" [inputId]="my-input-id" name="phone" formControlName="phone"></vx-itel>
 </form>
 ```
 
