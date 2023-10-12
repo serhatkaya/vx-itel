@@ -1,6 +1,6 @@
 {
   "name": "vx-itel-app-gg",
-  "version": "1.0.3",
+  "version": "0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -46,7 +46,7 @@
     "@angular/cli": "16.x",
     "@angular/compiler-cli": "16.x",
     "@angular/language-service": "16.x",
-    "@types/google-libphonenumber": "^7.4.23",
+    "@types/google-libphonenumber": "^7.4.27",
     "@types/jasmine": "~3.8.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
