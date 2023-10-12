@@ -8,6 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "build:lib": "ng build vx-itel",
+    "packlib": "cp -R ./readme.md dist/vx-itel/ && cp -R ./LICENSE dist/vx-itel/",
     "build_stats": "ng build --stats-json",
     "analyze": "webpack-bundle-analyzer dist/vx-itel-app/stats.json",
     "build_lib": "ng build vx-itel",
