@@ -2342,6 +2342,13 @@ class VxITelModule {
         FormsModule,
         ReactiveFormsModule, i4.BsDropdownModule], exports: [VxITelComponent, NativeElementInjectorDirective] }); })();
 
+class VxPhoneUtils {
+    /** Returns Google Lib. Phone Number Instance */
+    static getLpnInstance() {
+        return lpn.PhoneNumberUtil.getInstance();
+    }
+}
+
 /*
  * Public API Surface of vx-itel
  */
@@ -2350,5 +2357,5 @@ class VxITelModule {
  * Generated bundle index. Do not edit.
  */
 
-export { CountryISO, NativeElementInjectorDirective, PhoneNumberFormat, SearchCountryField, VxITelComponent, VxITelModule, dropdownModuleForRoot };
+export { CountryISO, NativeElementInjectorDirective, PhoneNumberFormat, SearchCountryField, VxITelComponent, VxITelModule, VxPhoneUtils, dropdownModuleForRoot, phoneNumberValidator };
 //# sourceMappingURL=vx-itel.mjs.map
