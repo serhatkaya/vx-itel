@@ -1,6 +1,6 @@
 {
   "name": "vx-itel-app-gg",
-  "version": "0.0",
+  "version": "1.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
