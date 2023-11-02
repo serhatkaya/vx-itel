@@ -1,6 +1,6 @@
 {
   "name": "vx-itel",
-  "version": "1.1.1",
+  "version": "0.0.0-watch+1698962256027",
   "peerDependencies": {
     "@angular/common": "16.x",
     "@angular/core": "16.x",
