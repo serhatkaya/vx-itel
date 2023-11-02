@@ -17,7 +17,7 @@ Validation with [google-libphonenumber](https://github.com/ruimarinho/google-lib
 | vx-itel | Angular        | ngx-bootstrap |
 | ------- | -------------- | ------------- |
 | 1.0  | 9.x.x - 15.x.x | 6.0.0         |
-| 1.1 - 1.4     | Angular 16     |               |
+| 1.1 - 1.4     | Angular 16     | ^11.0.2              |
 
 ## Installation
 
