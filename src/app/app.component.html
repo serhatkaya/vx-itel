@@ -14,6 +14,7 @@
   <form #f="ngForm" [formGroup]="phoneForm">
     <div class="wrapper">
       <vx-itel
+        [readonly]="true"
         [cssClass]="'custom'"
         [preferredCountries]="preferredCountries"
         [enableAutoCountrySelect]="true"

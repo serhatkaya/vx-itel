@@ -62,6 +62,7 @@ export class VxITelComponent implements OnInit, OnChanges {
   @Input() phoneValidation = true;
   @Input() inputId = 'phone';
   @Input() separateDialCode = false;
+  @Input() readonly = false;
   separateDialCodeClass: string;
 
   @Output() readonly countryChange = new EventEmitter<Country>();
